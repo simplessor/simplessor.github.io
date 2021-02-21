@@ -1,13 +1,7 @@
 {
   "name": "simplessor-github-io",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint"
-  },
+  "scripts": {},
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.1.2",
