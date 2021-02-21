@@ -2,7 +2,8 @@
   "name": "simplessor-github-io",
   "version": "0.0.0",
   "scripts": {
-    "serve:intr": "lite-server --baseDir=./dist/introduction"
+    "serve:intr": "lite-server --baseDir=./dist/introduction",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
