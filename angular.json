@@ -124,7 +124,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref":"/intr/",
+            "baseHref":"/",
             "buildTarget":"introduction:build:production",
             "noBuild":false,
             "repo":"https://github.com/simplessor/simplessor.github.io",
