@@ -2,7 +2,7 @@
   "name": "simplessor-github-io",
   "version": "0.0.0",
   "scripts": {
-    "serve:intr": "http-server -p 80 ./dist/introduction"
+    "serve:intr": "lite-server --baseDir=./dist/introduction"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +33,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "lite-server": "^2.6.1",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
