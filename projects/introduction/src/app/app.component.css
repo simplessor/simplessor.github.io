@@ -9,7 +9,9 @@
 }
 .title{
     font-family: "Microsoft YaHei";
-    font-size: xx-large;
+    font-size: 5em;
     font-weight: bolder;
-    font-style: italic;
+    /* font-style: italic; */
+    cursor:default;
+    user-select: none;
 }
