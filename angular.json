@@ -120,6 +120,23 @@
               "devServerTarget": "introduction:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref":"/intr/",
+            "buildTarget":"introduction:build:production",
+            "noBuild":false,
+            "repo":"https://github.com/simplessor/simplessor.github.io.git",
+            "message":"commit with angular-cli-ghpages",
+            "branch":"github-pages",
+            "name":"simplessor",
+            "email":"1003659191@qq.com",
+            "noSilent":true,
+            "noDotfiles":false,
+            "cname":"www.simplessor.ltd",
+            "dryRun":false
+          }
         }
       }
     }
