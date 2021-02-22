@@ -1,3 +1,1 @@
-/*
- * Public API Surface of share
- */
+export * from "./lib/module/material.module"
