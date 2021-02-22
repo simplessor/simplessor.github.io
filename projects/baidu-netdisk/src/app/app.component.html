@@ -1,7 +1,14 @@
-<div role="header">
-
+<div class="header">
+    <span>{{title}}</span>
 </div>
-<div role="content">
-
+<div class="content">
+    <router-outlet></router-outlet>
 </div>
-<div role="footer"></div>
+<div class="footer">
+    <span>
+        ©Copyright{{copyrightDate}} {{author}}
+    </span>
+    <span>
+        {{ICP}}
+    </span>
+</div>
