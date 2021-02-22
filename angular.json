@@ -165,6 +165,7 @@
               "projects/baidu-netdisk/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/baidu-netdisk/src/styles.css"
             ],
             "scripts": []
@@ -228,6 +229,7 @@
               "projects/baidu-netdisk/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/baidu-netdisk/src/styles.css"
             ],
             "scripts": []
@@ -261,5 +263,5 @@
       }
     }
   },
-  "defaultProject": "introduction"
+  "defaultProject": "baidu-netdisk"
 }
