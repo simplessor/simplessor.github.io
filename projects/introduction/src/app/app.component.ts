@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = '更简单点儿';
+  copyrightDate:number = 2021
+  author:string = "Simplessor"
+  ICP:string = "皖ICP备20010938号"
 }
