@@ -3,6 +3,7 @@ export const environment = {
 };
 export const baidu = {
   KeyAuthCode:"__baidu_auth_code__",
+  KeyAccessToken:"__baidu_access_token",
   AppID:23677629,
   AppName:"百度网盘 web",
   AppCategory:"软件",
@@ -10,5 +11,5 @@ export const baidu = {
   AppKey:"Chm4EZCuOdBpgdb8bR24wFWeAD7xbDAd",
   SecretKey:"cmBYPG2wOcXdVhoSDuEpjLj2adYzItzC",
   SignKey:"WT=2gLB@K~IL2xzR0uQnwXeDTvq$-R$b",
-  RedirectURI:"http://localhost:4200"
+  RedirectURI:"http://localhost:4200",
 }

@@ -13,7 +13,9 @@ export class FileListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    
+    this.baiduNetdiskService.fetchFileList().subscribe(files=>{
+      console.log(files)
+    })
   }
 
 }
