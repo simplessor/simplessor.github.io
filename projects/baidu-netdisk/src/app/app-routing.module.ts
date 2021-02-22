@@ -5,20 +5,18 @@ import { FileListComponent } from './file-list/file-list.component';
 
 const routes: Routes = [
   {
-    path:"list",
-    component:FileListComponent,
-    canActivate:[
+    path: "",
+    component: FileListComponent,
+    canActivate: [
       CheckBaiduAuthCodeGuard
     ]
-  },{
-    path:"",
-    pathMatch:"full",
-    redirectTo:"list"
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    onSameUrlNavigation: "reload"
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

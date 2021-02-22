@@ -9,7 +9,7 @@ import { FileListComponent } from './file-list/file-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FileListComponent
+    FileListComponent,
   ],
   imports: [
     BrowserModule,

@@ -10,5 +10,5 @@ export const baidu = {
   AppKey:"Chm4EZCuOdBpgdb8bR24wFWeAD7xbDAd",
   SecretKey:"cmBYPG2wOcXdVhoSDuEpjLj2adYzItzC",
   SignKey:"WT=2gLB@K~IL2xzR0uQnwXeDTvq$-R$b",
-  RedirectURI:"https://netdisk.simplessor.ltd"
+  RedirectURI:"http://localhost:4200"
 }

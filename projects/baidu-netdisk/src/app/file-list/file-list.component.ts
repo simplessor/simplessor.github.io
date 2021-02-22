@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { BaiduNetdiskService } from '../baidu-netdisk.service';
 
 @Component({
   selector: 'bd-file-list',
@@ -7,10 +8,12 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FileListComponent implements OnInit {
-
-  constructor() { }
+  constructor(
+    private baiduNetdiskService:BaiduNetdiskService
+  ) { }
 
   ngOnInit(): void {
+    
   }
 
 }

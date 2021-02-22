@@ -17,4 +17,10 @@ export class BaiduNetdiskService {
   checkBaiduAuthCode(){
     return !!this.loadBaiduAuthCode()
   }
+
+  saveBaiduAuthCode(authCode?:string){
+    if(!authCode)return;
+    this.baiduAuthCode = authCode
+    localStorage.setItem(KEY_BAIDU_AUTHCODE,authCode)
+  }
 }
