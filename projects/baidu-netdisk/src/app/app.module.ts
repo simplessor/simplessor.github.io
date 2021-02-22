@@ -4,10 +4,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'projects/share/src/main';
 import { AppComponent } from './app/app.component';
+import { FileListComponent } from './file-list/file-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FileListComponent
   ],
   imports: [
     BrowserModule,
