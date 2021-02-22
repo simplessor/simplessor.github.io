@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "serve:intr": "lite-server --baseDir=./dist/introduction",
+    "serve:bd": "lite-server --baseDir=./dist/baidu-netdisk",
     "e2e": "ng e2e"
   },
   "private": true,
